@@ -35,7 +35,7 @@ public class Pozdrav extends HttpServlet
     
     PrintWriter out = response.getWriter();
     Date datum = new Date();
-    out.println("<html><body>" + "<h2>Zdravo studenti I smera!</h2>" + "<br/> "
+    out.println("<html><body>" + "<h2>Zdravo studenti I smera, grupa <b>I2!</b></h2>" + "<br/> "
         + "<h3>Datum i vreme  su " + datum + "</h3>" + "</body></html>");
   }
   
