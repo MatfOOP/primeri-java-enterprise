@@ -8,7 +8,7 @@
 <title>Zdravo Svete - preko JSP</title>
 </head>
 <body >
-	<%="Zdravo master studenti!"%>
+	<%="Zdravo studenti I smera!"%>
 	<br /> Sada je
 	<%=new java.util.Date().toString() + ". "%>
 </body>
