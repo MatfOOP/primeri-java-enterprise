@@ -12,5 +12,4 @@
 	<br /> Sada je
 	<%=new java.util.Date().toString() + ". "%>
 </body>
-</body>
 </html>

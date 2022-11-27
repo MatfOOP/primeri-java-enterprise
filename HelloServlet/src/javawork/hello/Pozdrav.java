@@ -10,8 +10,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-@WebServlet(description = "Pozdrav", urlPatterns = { "/Pozdrav",
-    "/Pozdrav.do" })
+@WebServlet(description = "Pozdrav", urlPatterns = { "/Pozdrav", "/Pozdrav.do" })
 public class Pozdrav extends HttpServlet
 {
   private static final long serialVersionUID = 1L;
@@ -35,7 +34,7 @@ public class Pozdrav extends HttpServlet
     
     PrintWriter out = response.getWriter();
     Date datum = new Date();
-    out.println("<html><body>" + "<h2>Zdravo studenti I smera, grupa <b>I2!</b></h2>" + "<br/> "
+    out.println("<html><body>" + "<h2>Zdravo studenti I smera, grupa <b>2I1!</b></h2>" + "<br/> "
         + "<h3>Datum i vreme  su " + datum + "</h3>" + "</body></html>");
   }
   
